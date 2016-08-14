@@ -7,7 +7,7 @@
 */
 
 //Config
-define('API_KEY', 'e3ddd55f78e961108cfr767zt43292a2f71e7a57');
+define('API_KEY', 'add-your-watchful.li-api-key-here');
 define('BASE_URL', 'https://watchful.li/api/v1');
 
 // get base URL for refresh button
