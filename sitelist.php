@@ -7,7 +7,8 @@
 */
 
 //Config
-define('API_KEY', 'add-your-watchful.li-api-key-here');
+include_once dirname(__FILE__) . 'key.php';
+define('API_KEY', $key);
 define('BASE_URL', 'https://watchful.li/api/v1');
 
 // get base URL for refresh button
